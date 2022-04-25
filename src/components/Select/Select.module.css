@@ -1,0 +1,10 @@
+.select {
+  border: 1px solid #999999;
+  width: 335px;
+  height: 35px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}

@@ -1,0 +1,120 @@
+.form {
+  width: 100%;
+  margin: 0 10px;
+}
+
+.form_fieldset {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.form_field_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 40px 0 0 0;
+}
+
+.form_label {
+  width: 200px;
+  text-align: left;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 19px;
+}
+
+.form_input {
+  border: 1px solid #999999;
+  width: 335px;
+  height: 30px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.form_input_error {
+  border-color: red;
+  outline-color: rgba(230, 47, 47, 0.4);
+}
+
+.form_field_info {
+  margin: 0 0 0 18px;
+  max-width: 340px;
+  text-align: left;
+  color: rgba(153, 153, 153, 1);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.form_field_checkbox_info {
+  margin: 0 0 0 10px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.form_date_info {
+  color: rgba(153, 153, 153, 1);
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  margin: 0 0 0 12px;
+}
+
+.form_button_container {
+  margin: 40px auto 0 auto;
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.form_button_save {
+  width: 120px;
+  height: 40px;
+  color: white;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
+  border: none;
+  cursor: pointer;
+  background-color: #71c838;
+  box-shadow: 0px 1px 0px #539d22;
+}
+
+.form_button_save:hover {
+  opacity: 0.8;
+}
+
+.form_error_visible {
+  width: 335px;
+  margin: auto;
+  color: red;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: left;
+}
+
+.form_input_container {
+  display: flex;
+  flex-direction: column;
+}
